@@ -33,6 +33,14 @@ i18n.use(initReactI18next).init({
 					},
 				},
 			},
+
+			Information: {
+				text: "Bu qanday ishlaydi",
+				one: "Funksional oziq-ovqat faqat foydali ozuqa moddalarini o‘z ichiga oladi.",
+				two: "U kukun shaklida bo‘ladi — shunchaki ustidan qaynoq suv quysangiz, tayyor bo‘ladi..",
+				three: "Bir yoki ikkita odatiy ovqatlanishni bizning funksional oziqlantirish mahsulotimiz bilan almashtiring.",
+				four: "Bor-yo‘g‘i bir oy ichida uy hayvoningizdagi ijobiy o‘zgarishlarni kuzatishdan zavqlaning!",
+			}
 		},
 
 		ru: {
@@ -65,6 +73,13 @@ i18n.use(initReactI18next).init({
 						BtnText: 'каталог pro',
 					},
 				},
+					Information: {
+				text: "Как это работает",
+				one: "Функциональное питаниесодержит только полезные питательные вещества.",
+				two: "Выпускается в виде порошка, который нужно лишь залить кипятком и готово.",
+				three: "Замените один-два приема обычной еды на наше функциональное питание.",
+				four: "Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!",
+			}
 			},
 		},
 	},

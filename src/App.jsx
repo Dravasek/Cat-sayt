@@ -8,7 +8,8 @@ const App = () => {
   const { t, i18n } = useTranslation()
 
   return (
-    <div>
+  <>
+    <div className='bg-white text-blue-950'>
       
  <div className="container mx-auto p-4">
       <div className='flex justify-around'>
@@ -70,9 +71,21 @@ const App = () => {
           </div>
         </div>
 
+        <div>
+          <h2>{t('Information.text')}</h2>
+          <div>
+            <div className=''>
+
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
+    </>
   )
 }
 
